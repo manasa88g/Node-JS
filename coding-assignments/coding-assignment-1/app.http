@@ -1,0 +1,12 @@
+
+get http://localhost:3000/agenda/?date=2-2-2
+
+###
+
+put http://localhost:3000/todos/6
+content-type: application/json
+
+{
+  "category": "LEARNINGs"
+}
+
